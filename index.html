@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>map test</title>
+</head>
+<link rel="stylesheet" href="CesiumUnminified/Widgets/widgets.css">
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="topnav">
+        Header
+    </div>
+    <div class="sidenav">
+        <a href="#">N</a>
+        <a href="#">A</a>
+        <a href="#">V</a>
+        <a href="#">I</a>
+        <a href="#">G</a>
+        <a href="#">A</a>
+        <a href="#">T</a>
+        <a href="#">I</a>
+        <a href="#">O</a>
+        <a href="#">N</a>
+    </div>
+    <div id="map"></div>
+
+    <script src="mago3d/mago3d.js"></script>
+    <script src="CesiumUnminified/Cesium.js"></script>
+    <script>
+        var geopolicy = {};
+        geopolicy.basicGlobe = 'cesium';
+        geopolicy.terrainType = 'cesium-ion-default';
+        geopolicy.initCameraEnable = true;
+        geopolicy.initLatitude = 35.139482;
+        geopolicy.initLongitude = 128.917656;
+        geopolicy.initAltitude = 500;
+        geopolicy.initDuration = 0.5;
+
+        var map = new Mago3D.Mago3d('map', geopolicy);
+    </script>
+</body>
+
+</html>
