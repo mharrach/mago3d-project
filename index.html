@@ -53,33 +53,10 @@
             "datas": []
         };
 
-        var firstObject = {
-            "metainfo": {
-                "isPhysical": true,
-                "flipYTexCoords": true,
-                "heightReference": "clampToGround",
-                "isVisible": true
-            },
-            "dataId": 1,
-            "dataGroupId": 1,
-            "dataKey": "9U9_1045",
-            "dataName": "9U9_1045",
-            "mappingType": "boundingboxcenter",
-            "longitude": 127.22021916862326,
-            "latitude": 32.592524562665204,
-            "height": 14.177629,
-            "heading": 0.000000,
-            "pitch": 0.000000,
-            "roll": 0.000000
-        };
-
-        f4dGroup.datas.push(firstObject);
-        f4dController.addF4dGroup(f4dGroup);
-
-        function loadJSON(callback) {
+        function loadJSON(callback, pathToJson) {
             var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
-            xobj.open('GET', 'f4d/guide/relativePaths.json', true);
+            xobj.open('GET', pathToJson, true);
             xobj.onreadystatechange = function () {
                 if (xobj.readyState == 4 && xobj.status == "200") {
                     // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -90,16 +67,42 @@
         }
 
         var list_of_folders = [];
+        var path = 'f4d/guide/relativePaths.json';
 
         loadJSON(function (response) {
             // Parse JSON string into object
             var actual_JSON = JSON.parse(response);
-            for (let index = 0; index < actual_JSON.length; index++) {
-                var folder_name = actual_JSON[index].data_key;
-                list_of_folders.push('f4d/guide/F4D_' + folder_name + '/lonsLats.json');
-            }
+            for (let i = 0; i < actual_JSON.length; i++) {
+                var folder_name = actual_JSON[i].data_key;
+                var new_path = 'f4d/guide/F4D_' + folder_name + '/lonsLats.json';
+                loadJSON(function (response) {
+                    // Parse JSON string into object
+                    var actual_JSON = JSON.parse(response);
+                    var elementObject = {
+                        "metainfo": {
+                            "isPhysical": true,
+                            "flipYTexCoords": true,
+                            "heightReference": "clampToGround",
+                            "isVisible": true
+                        },
+                        "dataId": 1,
+                        "dataGroupId": 1,
+                        "dataKey": actual_JSON.data_key,
+                        "dataName": actual_JSON.data_key,
+                        "mappingType": "boundingboxcenter",
+                        "longitude": actual_JSON.longitude,
+                        "latitude": actual_JSON.latitude,
+                        "height": 14.177629,
+                        "heading": 0.000000,
+                        "pitch": 0.000000,
+                        "roll": 0.000000
+                    };
 
-        });
+                    f4dGroup.datas.push(elementObject);
+                    f4dController.addF4dGroup(f4dGroup);
+                }, new_path);
+            }
+        }, path);
     </script>
 </body>
 

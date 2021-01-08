@@ -1,0 +1,3042 @@
+{
+   "conversionJobResult" : [
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:42",
+         "fileName" : "7D6_598.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7D6_598.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:41"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:43",
+         "fileName" : "7D6_599.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7D6_599.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:44",
+         "fileName" : "7M6_1237.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1237.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:43"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:46",
+         "fileName" : "7M6_1239.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1239.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:44"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:47",
+         "fileName" : "7M6_1240.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1240.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:46"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:49",
+         "fileName" : "7M6_1244.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1244.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:47"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:50",
+         "fileName" : "7M6_1252.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1252.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:49"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:52",
+         "fileName" : "7M6_1254.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1254.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:50"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:53",
+         "fileName" : "7M6_1255.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1255.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:52"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:55",
+         "fileName" : "7M6_1256.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1256.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:53"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:56",
+         "fileName" : "7M6_1259.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1259.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:55"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:22:58",
+         "fileName" : "7M6_1260.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_1260.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:56"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:00",
+         "fileName" : "7M6_871.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_871.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:22:58"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:01",
+         "fileName" : "7M6_872.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_872.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:00"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:02",
+         "fileName" : "7M6_873.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_873.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:01"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:04",
+         "fileName" : "7M6_874.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_874.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:02"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:05",
+         "fileName" : "7M6_966.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_966.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:04"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:07",
+         "fileName" : "7M6_983.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_983.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:05"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:08",
+         "fileName" : "7M6_984.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_984.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:07"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:10",
+         "fileName" : "7M6_985.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_985.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:08"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:11",
+         "fileName" : "7M6_987.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_987.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:13",
+         "fileName" : "7M6_989.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7M6_989.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:11"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:15",
+         "fileName" : "7SM_14.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_14.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:16",
+         "fileName" : "7SM_15.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_15.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:15"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:18",
+         "fileName" : "7SM_16.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_16.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:16"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:19",
+         "fileName" : "7SM_2.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_2.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:18"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:21",
+         "fileName" : "7SM_3.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_3.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:19"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:22",
+         "fileName" : "7SM_4.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_4.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:21"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:23",
+         "fileName" : "7SM_5.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_5.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:25",
+         "fileName" : "7SM_7.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SM_7.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:23"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:26",
+         "fileName" : "7SU_1138.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1138.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:25"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:28",
+         "fileName" : "7SU_1191.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1191.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:26"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:31",
+         "fileName" : "7SU_1195.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1195.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:28"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:34",
+         "fileName" : "7SU_1224.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1224.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:31"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:38",
+         "fileName" : "7SU_1528.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1528.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:42",
+         "fileName" : "7SU_1535.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1535.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:38"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:45",
+         "fileName" : "7SU_1658.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1658.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:48",
+         "fileName" : "7SU_1671.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1671.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:45"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:51",
+         "fileName" : "7SU_1673.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1673.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:48"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:56",
+         "fileName" : "7SU_1700.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1700.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:51"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:23:59",
+         "fileName" : "7SU_1701.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1701.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:56"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:03",
+         "fileName" : "7SU_1706.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1706.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:23:59"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:07",
+         "fileName" : "7SU_1707.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1707.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:03"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:09",
+         "fileName" : "7SU_1733.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1733.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:07"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:10",
+         "fileName" : "7SU_1734.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1734.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:09"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:12",
+         "fileName" : "7SU_1735.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1735.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:13",
+         "fileName" : "7SU_1736.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1736.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:12"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:14",
+         "fileName" : "7SU_1739.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1739.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:16",
+         "fileName" : "7SU_1744.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1744.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:14"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:17",
+         "fileName" : "7SU_1745.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_1745.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:16"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:19",
+         "fileName" : "7SU_2046.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_2046.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:17"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:20",
+         "fileName" : "7SU_2079.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_2079.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:19"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:22",
+         "fileName" : "7SU_2117.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_2117.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:20"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:23",
+         "fileName" : "7SU_2165.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_2165.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:25",
+         "fileName" : "7SU_277.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_277.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:23"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:26",
+         "fileName" : "7SU_278.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_278.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:25"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:28",
+         "fileName" : "7SU_279.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_279.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:26"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:29",
+         "fileName" : "7SU_283.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_283.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:28"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:31",
+         "fileName" : "7SU_286.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_286.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:29"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:32",
+         "fileName" : "7SU_287.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_287.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:31"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:34",
+         "fileName" : "7SU_288.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_288.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:32"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:35",
+         "fileName" : "7SU_290.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_290.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:36",
+         "fileName" : "7SU_296.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_296.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:35"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:38",
+         "fileName" : "7SU_297.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_297.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:36"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:39",
+         "fileName" : "7SU_305.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_305.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:38"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:41",
+         "fileName" : "7SU_306.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_306.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:39"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:42",
+         "fileName" : "7SU_308.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_308.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:41"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:43",
+         "fileName" : "7SU_310.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_310.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:44",
+         "fileName" : "7SU_315.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_315.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:43"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:46",
+         "fileName" : "7SU_316.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_316.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:44"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:47",
+         "fileName" : "7SU_317.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_317.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:46"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:48",
+         "fileName" : "7SU_319.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_319.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:47"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:49",
+         "fileName" : "7SU_320.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_320.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:48"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:51",
+         "fileName" : "7SU_417.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_417.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:49"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:52",
+         "fileName" : "7SU_418.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_418.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:51"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:53",
+         "fileName" : "7SU_420.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_420.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:52"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:55",
+         "fileName" : "7SU_425.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_425.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:53"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:56",
+         "fileName" : "7SU_426.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_426.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:55"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:57",
+         "fileName" : "7SU_427.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_427.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:56"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:24:58",
+         "fileName" : "7SU_428.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_428.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:57"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:00",
+         "fileName" : "7SU_432.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_432.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:24:58"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:01",
+         "fileName" : "7SU_433.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_433.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:00"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:02",
+         "fileName" : "7SU_436.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_436.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:01"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:04",
+         "fileName" : "7SU_437.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_437.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:02"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:05",
+         "fileName" : "7SU_534.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_534.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:04"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:06",
+         "fileName" : "7SU_535.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_535.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:05"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:08",
+         "fileName" : "7SU_536.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_536.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:06"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:09",
+         "fileName" : "7SU_538.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_538.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:08"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:10",
+         "fileName" : "7SU_541.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_541.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:09"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:12",
+         "fileName" : "7SU_542.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_542.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:13",
+         "fileName" : "7SU_723.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_723.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:12"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:14",
+         "fileName" : "7SU_725.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_725.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:16",
+         "fileName" : "7SU_728.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_728.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:14"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:17",
+         "fileName" : "7SU_729.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_729.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:16"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:18",
+         "fileName" : "7SU_740.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_740.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:17"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:19",
+         "fileName" : "7SU_744.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_744.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:18"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:21",
+         "fileName" : "7SU_745.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_745.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:19"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:22",
+         "fileName" : "7SU_823.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_823.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:21"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:23",
+         "fileName" : "7SU_826.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_826.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:25",
+         "fileName" : "7SU_833.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_833.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:23"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:26",
+         "fileName" : "7SU_834.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_834.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:25"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:27",
+         "fileName" : "7SU_836.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7SU_836.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:26"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:28",
+         "fileName" : "7U6_1016.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1016.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:27"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:30",
+         "fileName" : "7U6_1018.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1018.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:28"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:31",
+         "fileName" : "7U6_1019.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1019.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:30"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:32",
+         "fileName" : "7U6_1262.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1262.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:31"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:34",
+         "fileName" : "7U6_1271.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1271.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:32"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:35",
+         "fileName" : "7U6_1282.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1282.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:36",
+         "fileName" : "7U6_1285.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1285.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:35"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:37",
+         "fileName" : "7U6_1293.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1293.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:36"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:39",
+         "fileName" : "7U6_1294.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1294.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:37"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:40",
+         "fileName" : "7U6_1297.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1297.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:39"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:42",
+         "fileName" : "7U6_1300.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1300.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:40"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:43",
+         "fileName" : "7U6_1322.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1322.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:44",
+         "fileName" : "7U6_1323.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_1323.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:43"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:46",
+         "fileName" : "7U6_300.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_300.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:44"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:47",
+         "fileName" : "7U6_301.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_301.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:46"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:49",
+         "fileName" : "7U6_3298.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3298.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:47"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:50",
+         "fileName" : "7U6_3301.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3301.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:49"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:52",
+         "fileName" : "7U6_3308.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3308.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:50"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:53",
+         "fileName" : "7U6_3836.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3836.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:52"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:54",
+         "fileName" : "7U6_3837.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3837.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:53"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:55",
+         "fileName" : "7U6_3843.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3843.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:54"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:56",
+         "fileName" : "7U6_3847.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3847.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:55"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:58",
+         "fileName" : "7U6_3851.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3851.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:56"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:25:59",
+         "fileName" : "7U6_3857.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3857.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:58"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:00",
+         "fileName" : "7U6_3861.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3861.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:25:59"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:02",
+         "fileName" : "7U6_389.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_389.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:00"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:03",
+         "fileName" : "7U6_3912.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3912.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:02"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:04",
+         "fileName" : "7U6_3939.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_3939.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:03"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:05",
+         "fileName" : "7U6_4011.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_4011.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:04"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:07",
+         "fileName" : "7U6_4428.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_4428.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:05"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:08",
+         "fileName" : "7U6_453.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_453.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:07"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:10",
+         "fileName" : "7U6_454.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_454.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:08"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:11",
+         "fileName" : "7U6_455.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_455.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:12",
+         "fileName" : "7U6_459.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_459.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:11"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:13",
+         "fileName" : "7U6_460.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_460.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:12"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:15",
+         "fileName" : "7U6_461.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_461.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:16",
+         "fileName" : "7U6_476.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_476.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:15"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:18",
+         "fileName" : "7U6_477.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_477.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:16"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:19",
+         "fileName" : "7U6_478.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_478.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:18"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:21",
+         "fileName" : "7U6_479.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_479.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:19"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:22",
+         "fileName" : "7U6_482.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_482.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:21"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:24",
+         "fileName" : "7U6_484.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_484.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:25",
+         "fileName" : "7U6_485.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_485.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:24"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:27",
+         "fileName" : "7U6_486.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_486.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:25"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:29",
+         "fileName" : "7U6_487.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_487.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:27"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:30",
+         "fileName" : "7U6_488.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_488.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:29"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:32",
+         "fileName" : "7U6_489.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_489.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:30"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:34",
+         "fileName" : "7U6_490.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_490.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:32"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:36",
+         "fileName" : "7U6_491.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_491.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:37",
+         "fileName" : "7U6_492.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_492.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:36"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:38",
+         "fileName" : "7U6_873.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_873.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:37"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:40",
+         "fileName" : "7U6_982.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_982.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:38"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:41",
+         "fileName" : "7U6_984.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/7U6_984.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:40"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:42",
+         "fileName" : "9M9_10.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_10.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:41"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:43",
+         "fileName" : "9M9_14.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_14.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:45",
+         "fileName" : "9M9_146.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_146.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:43"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:46",
+         "fileName" : "9M9_15.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_15.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:45"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:47",
+         "fileName" : "9M9_16.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_16.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:46"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:49",
+         "fileName" : "9M9_18.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_18.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:47"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:50",
+         "fileName" : "9M9_20.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_20.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:49"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:51",
+         "fileName" : "9M9_21.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_21.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:50"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:53",
+         "fileName" : "9M9_22.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_22.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:51"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:54",
+         "fileName" : "9M9_23.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_23.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:53"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:55",
+         "fileName" : "9M9_24.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_24.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:54"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:56",
+         "fileName" : "9M9_25.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_25.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:55"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:58",
+         "fileName" : "9M9_26.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_26.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:56"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:26:59",
+         "fileName" : "9M9_28.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_28.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:58"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:00",
+         "fileName" : "9M9_29.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_29.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:26:59"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:01",
+         "fileName" : "9M9_3.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_3.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:00"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:03",
+         "fileName" : "9M9_30.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_30.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:01"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:04",
+         "fileName" : "9M9_31.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_31.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:03"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:05",
+         "fileName" : "9M9_4.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_4.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:04"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:06",
+         "fileName" : "9M9_6.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_6.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:05"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:08",
+         "fileName" : "9M9_82.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_82.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:06"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:09",
+         "fileName" : "9M9_9.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9M9_9.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:08"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:10",
+         "fileName" : "9U7_182.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_182.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:09"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:12",
+         "fileName" : "9U7_194.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_194.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:13",
+         "fileName" : "9U7_195.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_195.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:12"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:14",
+         "fileName" : "9U7_252.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_252.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:16",
+         "fileName" : "9U7_254.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_254.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:14"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:17",
+         "fileName" : "9U7_255.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_255.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:16"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:18",
+         "fileName" : "9U7_256.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_256.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:17"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:19",
+         "fileName" : "9U7_257.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_257.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:18"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:21",
+         "fileName" : "9U7_274.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_274.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:19"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:22",
+         "fileName" : "9U7_280.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_280.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:21"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:23",
+         "fileName" : "9U7_281.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_281.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:24",
+         "fileName" : "9U7_282.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_282.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:23"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:26",
+         "fileName" : "9U7_283.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_283.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:24"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:27",
+         "fileName" : "9U7_287.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_287.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:26"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:28",
+         "fileName" : "9U7_288.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_288.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:27"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:30",
+         "fileName" : "9U7_289.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_289.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:28"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:31",
+         "fileName" : "9U7_290.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_290.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:30"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:32",
+         "fileName" : "9U7_291.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_291.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:31"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:34",
+         "fileName" : "9U7_292.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_292.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:32"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:35",
+         "fileName" : "9U7_293.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_293.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:36",
+         "fileName" : "9U7_389.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_389.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:35"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:38",
+         "fileName" : "9U7_390.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_390.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:36"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:39",
+         "fileName" : "9U7_391.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_391.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:38"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:40",
+         "fileName" : "9U7_392.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_392.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:39"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:41",
+         "fileName" : "9U7_401.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_401.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:40"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:42",
+         "fileName" : "9U7_402.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_402.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:41"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:44",
+         "fileName" : "9U7_403.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_403.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:45",
+         "fileName" : "9U7_408.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_408.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:44"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:46",
+         "fileName" : "9U7_478.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U7_478.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:45"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:47",
+         "fileName" : "9U9_10.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_10.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:46"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:48",
+         "fileName" : "9U9_1014.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_1014.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:47"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:50",
+         "fileName" : "9U9_1015.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_1015.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:48"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:51",
+         "fileName" : "9U9_1016.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_1016.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:50"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:52",
+         "fileName" : "9U9_1045.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_1045.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:51"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:54",
+         "fileName" : "9U9_11.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_11.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:52"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:55",
+         "fileName" : "9U9_14.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_14.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:54"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:56",
+         "fileName" : "9U9_15.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_15.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:55"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:57",
+         "fileName" : "9U9_16.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_16.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:56"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:27:58",
+         "fileName" : "9U9_174.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_174.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:57"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:00",
+         "fileName" : "9U9_175.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_175.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:27:58"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:01",
+         "fileName" : "9U9_178.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_178.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:00"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:02",
+         "fileName" : "9U9_179.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_179.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:01"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:04",
+         "fileName" : "9U9_187.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_187.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:02"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:05",
+         "fileName" : "9U9_188.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_188.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:04"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:06",
+         "fileName" : "9U9_19.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_19.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:05"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:08",
+         "fileName" : "9U9_190.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_190.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:06"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:09",
+         "fileName" : "9U9_192.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_192.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:08"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:10",
+         "fileName" : "9U9_2.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_2.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:09"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:11",
+         "fileName" : "9U9_20.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_20.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:13",
+         "fileName" : "9U9_214.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_214.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:11"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:14",
+         "fileName" : "9U9_216.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_216.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:15",
+         "fileName" : "9U9_217.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_217.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:14"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:17",
+         "fileName" : "9U9_219.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_219.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:15"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:18",
+         "fileName" : "9U9_22.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_22.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:17"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:19",
+         "fileName" : "9U9_220.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_220.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:18"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:20",
+         "fileName" : "9U9_221.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_221.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:19"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:22",
+         "fileName" : "9U9_224.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_224.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:20"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:23",
+         "fileName" : "9U9_225.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_225.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:25",
+         "fileName" : "9U9_226.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_226.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:23"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:26",
+         "fileName" : "9U9_228.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_228.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:25"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:27",
+         "fileName" : "9U9_23.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_23.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:26"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:29",
+         "fileName" : "9U9_231.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_231.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:27"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:30",
+         "fileName" : "9U9_232.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_232.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:29"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:31",
+         "fileName" : "9U9_233.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_233.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:30"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:32",
+         "fileName" : "9U9_234.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_234.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:31"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:33",
+         "fileName" : "9U9_236.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_236.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:32"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:34",
+         "fileName" : "9U9_240.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_240.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:33"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:36",
+         "fileName" : "9U9_242.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_242.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:37",
+         "fileName" : "9U9_245.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_245.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:36"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:38",
+         "fileName" : "9U9_26.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_26.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:37"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:40",
+         "fileName" : "9U9_27.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_27.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:38"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:41",
+         "fileName" : "9U9_28.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_28.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:40"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:42",
+         "fileName" : "9U9_29.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_29.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:41"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:44",
+         "fileName" : "9U9_3.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_3.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:45",
+         "fileName" : "9U9_300.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_300.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:44"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:46",
+         "fileName" : "9U9_301.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_301.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:45"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:47",
+         "fileName" : "9U9_302.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_302.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:46"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:49",
+         "fileName" : "9U9_305.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_305.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:47"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:50",
+         "fileName" : "9U9_307.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_307.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:49"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:51",
+         "fileName" : "9U9_308.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_308.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:50"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:53",
+         "fileName" : "9U9_309.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_309.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:51"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:54",
+         "fileName" : "9U9_311.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_311.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:53"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:55",
+         "fileName" : "9U9_312.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_312.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:54"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:57",
+         "fileName" : "9U9_319.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_319.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:55"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:28:58",
+         "fileName" : "9U9_32.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_32.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:57"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:00",
+         "fileName" : "9U9_320.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_320.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:28:58"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:01",
+         "fileName" : "9U9_322.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_322.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:00"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:02",
+         "fileName" : "9U9_325.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_325.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:01"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:04",
+         "fileName" : "9U9_326.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_326.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:02"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:05",
+         "fileName" : "9U9_327.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_327.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:04"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:07",
+         "fileName" : "9U9_329.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_329.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:05"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:08",
+         "fileName" : "9U9_330.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_330.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:07"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:09",
+         "fileName" : "9U9_338.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_338.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:08"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:10",
+         "fileName" : "9U9_339.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_339.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:09"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:12",
+         "fileName" : "9U9_340.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_340.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:13",
+         "fileName" : "9U9_35.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_35.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:12"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:14",
+         "fileName" : "9U9_357.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_357.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:16",
+         "fileName" : "9U9_358.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_358.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:14"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:17",
+         "fileName" : "9U9_359.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_359.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:16"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:18",
+         "fileName" : "9U9_36.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_36.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:17"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:20",
+         "fileName" : "9U9_360.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_360.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:18"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:21",
+         "fileName" : "9U9_364.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_364.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:20"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:22",
+         "fileName" : "9U9_365.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_365.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:21"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:23",
+         "fileName" : "9U9_366.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_366.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:25",
+         "fileName" : "9U9_367.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_367.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:23"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:26",
+         "fileName" : "9U9_37.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_37.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:25"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:28",
+         "fileName" : "9U9_412.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_412.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:26"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:29",
+         "fileName" : "9U9_415.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_415.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:28"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:31",
+         "fileName" : "9U9_416.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_416.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:29"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:32",
+         "fileName" : "9U9_419.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_419.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:31"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:33",
+         "fileName" : "9U9_421.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_421.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:32"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:34",
+         "fileName" : "9U9_423.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_423.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:33"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:35",
+         "fileName" : "9U9_425.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_425.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:37",
+         "fileName" : "9U9_426.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_426.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:35"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:38",
+         "fileName" : "9U9_427.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_427.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:37"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:40",
+         "fileName" : "9U9_428.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_428.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:38"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:41",
+         "fileName" : "9U9_429.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_429.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:40"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:42",
+         "fileName" : "9U9_43.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_43.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:41"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:43",
+         "fileName" : "9U9_430.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_430.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:42"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:45",
+         "fileName" : "9U9_431.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_431.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:43"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:46",
+         "fileName" : "9U9_432.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_432.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:45"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:47",
+         "fileName" : "9U9_434.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_434.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:46"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:48",
+         "fileName" : "9U9_439.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_439.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:47"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:50",
+         "fileName" : "9U9_44.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_44.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:48"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:51",
+         "fileName" : "9U9_440.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_440.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:50"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:52",
+         "fileName" : "9U9_441.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_441.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:51"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:54",
+         "fileName" : "9U9_442.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_442.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:52"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:55",
+         "fileName" : "9U9_443.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_443.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:54"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:56",
+         "fileName" : "9U9_445.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_445.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:55"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:57",
+         "fileName" : "9U9_446.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_446.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:56"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:29:59",
+         "fileName" : "9U9_447.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_447.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:57"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:00",
+         "fileName" : "9U9_448.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_448.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:29:59"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:01",
+         "fileName" : "9U9_449.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_449.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:00"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:03",
+         "fileName" : "9U9_450.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_450.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:01"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:04",
+         "fileName" : "9U9_451.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_451.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:03"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:05",
+         "fileName" : "9U9_499.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_499.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:04"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:06",
+         "fileName" : "9U9_5.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_5.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:05"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:08",
+         "fileName" : "9U9_501.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_501.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:06"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:09",
+         "fileName" : "9U9_502.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_502.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:08"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:10",
+         "fileName" : "9U9_503.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_503.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:09"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:11",
+         "fileName" : "9U9_504.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_504.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:10"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:13",
+         "fileName" : "9U9_505.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_505.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:11"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:14",
+         "fileName" : "9U9_506.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_506.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:13"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:15",
+         "fileName" : "9U9_507.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_507.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:14"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:17",
+         "fileName" : "9U9_508.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_508.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:15"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:18",
+         "fileName" : "9U9_509.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_509.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:17"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:19",
+         "fileName" : "9U9_510.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_510.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:18"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:21",
+         "fileName" : "9U9_511.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_511.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:19"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:22",
+         "fileName" : "9U9_512.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_512.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:21"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:23",
+         "fileName" : "9U9_513.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_513.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:22"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:25",
+         "fileName" : "9U9_514.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_514.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:23"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:26",
+         "fileName" : "9U9_515.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_515.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:25"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:27",
+         "fileName" : "9U9_517.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_517.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:26"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:29",
+         "fileName" : "9U9_6.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_6.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:27"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:30",
+         "fileName" : "9U9_7.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_7.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:29"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:31",
+         "fileName" : "9U9_8.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_8.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:30"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:32",
+         "fileName" : "9U9_832.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_832.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:31"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:34",
+         "fileName" : "9U9_9.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_9.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:32"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:35",
+         "fileName" : "9U9_907.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_907.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:34"
+      },
+      {
+         "bGeoReferenced" : true,
+         "endTime" : "2021-01-06 18:30:36",
+         "fileName" : "9U9_908.3ds",
+         "fullPath" : "C:\\Users\\user\\Downloads\\converter\\raw\\sejong/9U9_908.3ds",
+         "message" : "",
+         "resultStatus" : "success",
+         "startTime" : "2021-01-06 18:30:35"
+      }
+   ],
+   "endTime" : "2021-01-06 18:30:39",
+   "isSuccess" : true,
+   "numberOfFilesConverted" : 337,
+   "numberOfFilesToBeConverted" : 337,
+   "startTime" : "2021-01-06 18:22:40"
+}
