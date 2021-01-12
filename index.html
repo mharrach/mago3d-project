@@ -66,41 +66,34 @@
             xobj.send(null);
         }
 
-        var list_of_folders = [];
-        var path = 'f4d/guide/relativePaths.json';
+        var path = 'f4d/guide/mergedLonsLats.json';
 
         loadJSON(function (response) {
             // Parse JSON string into object
             var actual_JSON = JSON.parse(response);
             for (let i = 0; i < actual_JSON.length; i++) {
-                var folder_name = actual_JSON[i].data_key;
-                var new_path = 'f4d/guide/F4D_' + folder_name + '/lonsLats.json';
-                loadJSON(function (response) {
-                    // Parse JSON string into object
-                    var actual_JSON = JSON.parse(response);
-                    var elementObject = {
-                        "metainfo": {
-                            "isPhysical": true,
-                            "flipYTexCoords": true,
-                            "heightReference": "clampToGround",
-                            "isVisible": true
-                        },
-                        "dataId": 1,
-                        "dataGroupId": 1,
-                        "dataKey": actual_JSON.data_key,
-                        "dataName": actual_JSON.data_key,
-                        "mappingType": "boundingboxcenter",
-                        "longitude": actual_JSON.longitude,
-                        "latitude": actual_JSON.latitude,
-                        "height": 14.177629,
-                        "heading": 0.000000,
-                        "pitch": 0.000000,
-                        "roll": 0.000000
-                    };
+                var elementObject = {
+                    "metainfo": {
+                        "isPhysical": true,
+                        "flipYTexCoords": true,
+                        "heightReference": "clampToGround",
+                        "isVisible": true
+                    },
+                    "dataId": 1,
+                    "dataGroupId": 1,
+                    "dataKey": actual_JSON[i].data_key,
+                    "dataName": actual_JSON[i].data_key,
+                    "mappingType": "boundingboxcenter",
+                    "longitude": actual_JSON[i].longitude,
+                    "latitude": actual_JSON[i].latitude,
+                    "height": 14.177629,
+                    "heading": 0.000000,
+                    "pitch": 0.000000,
+                    "roll": 0.000000
+                };
 
-                    f4dGroup.datas.push(elementObject);
-                    f4dController.addF4dGroup(f4dGroup);
-                }, new_path);
+                f4dGroup.datas.push(elementObject);
+                f4dController.addF4dGroup(f4dGroup);
             }
         }, path);
     </script>
