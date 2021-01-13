@@ -53,6 +53,26 @@
             "datas": []
         };
 
+        var elementObject = {
+            "metainfo": {
+                "isPhysical": true,
+                "flipYTexCoords": true,
+                "heightReference": "clampToGround",
+                "isVisible": true
+            },
+            "dataId": 1,
+            "dataGroupId": 1,
+            "dataKey": 'default',
+            "dataName": 'default',
+            "mappingType": "boundingboxcenter",
+            "longitude": 128.917656,
+            "latitude": 35.139482,
+            "height": 14.177629,
+            "heading": 0.000000,
+            "pitch": 0.000000,
+            "roll": 0.000000
+        };
+
         function loadJSON(callback, pathToJson) {
             var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
@@ -72,27 +92,12 @@
             // Parse JSON string into object
             var actual_JSON = JSON.parse(response);
             for (let i = 0; i < actual_JSON.length; i++) {
-                var elementObject = {
-                    "metainfo": {
-                        "isPhysical": true,
-                        "flipYTexCoords": true,
-                        "heightReference": "clampToGround",
-                        "isVisible": true
-                    },
-                    "dataId": 1,
-                    "dataGroupId": 1,
-                    "dataKey": actual_JSON[i].data_key,
-                    "dataName": actual_JSON[i].data_key,
-                    "mappingType": "boundingboxcenter",
-                    "longitude": actual_JSON[i].longitude,
-                    "latitude": actual_JSON[i].latitude,
-                    "height": 14.177629,
-                    "heading": 0.000000,
-                    "pitch": 0.000000,
-                    "roll": 0.000000
-                };
-
-                f4dGroup.datas.push(elementObject);
+                let newElementObject = JSON.parse(JSON.stringify(elementObject));
+                newElementObject.dataKey = actual_JSON[i].data_key;
+                newElementObject.dataKey = actual_JSON[i].data_key;
+                newElementObject.longitude = actual_JSON[i].longitude;
+                newElementObject.latitude = actual_JSON[i].latitude;
+                f4dGroup.datas.push(newElementObject);
                 f4dController.addF4dGroup(f4dGroup);
             }
         }, path);
