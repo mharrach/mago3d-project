@@ -5,7 +5,7 @@ body {
     height: 100%;
 }
 
-#map{
+#map {
     padding-left: 50px;
 }
 
@@ -14,8 +14,9 @@ body {
     z-index: 1;
     height: 25px;
     padding-left: 50px;
-    background-color:teal;
+    background-color: teal;
     text-align: center;
+    color: white;
 }
 
 .sidenav {
@@ -27,18 +28,56 @@ body {
     top: 0;
     left: 0;
     padding-top: 25px;
-    background-color:gray;
+    background-color: gray;
 }
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 20px;
-    color:black;
-    display: block;
+.sidenav button {
+    width: 50px;
+    background-color: #4b5052;
+    border: 0.5px solid black;
+    color: white;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
+
+/* Style the tab */
+
+.tab {
+    display: none;
+    overflow: hidden;
+    margin-left: 50px;
+    border: 1px solid;
+    border-color: black;
+    background-color: #4b5052;
+}
+
+
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    overflow: hidden;
+    margin-left: 50px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }

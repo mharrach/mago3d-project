@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -13,17 +13,25 @@
         Header
     </div>
     <div class="sidenav">
-        <a href="#">N</a>
-        <a href="#">A</a>
-        <a href="#">V</a>
-        <a href="#">I</a>
-        <a href="#">G</a>
-        <a href="#">A</a>
-        <a href="#">T</a>
-        <a href="#">I</a>
-        <a href="#">O</a>
-        <a href="#">N</a>
+        <button type="button" onclick="toggle_visibility();">Data</button>
     </div>
+    <!-- Tab links -->
+    <div id="navtab" class="tab">
+        <button class="tablinks" onclick="openCity(event, 'data')">Data</button>
+        <button class="tablinks" onclick="openCity(event, 'blink')">Blink</button>
+    </div>
+
+    <!-- Tab content -->
+    <div id="data" class="tabcontent">
+        <h3>Test</h3>
+        <p>test</p>
+    </div>
+
+    <div id="blink" class="tabcontent">
+        <h3>Test</h3>
+        <p>test</p>
+    </div>
+
     <div id="map"></div>
 
     <script src="mago3d/mago3d.js"></script>
@@ -77,7 +85,7 @@
             var xobj = new XMLHttpRequest();
             xobj.overrideMimeType("application/json");
             xobj.open('GET', pathToJson, true);
-            xobj.onreadystatechange = function () {
+            xobj.onreadystatechange = function() {
                 if (xobj.readyState == 4 && xobj.status == "200") {
                     // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
                     callback(xobj.responseText);
@@ -88,7 +96,7 @@
 
         var path = 'f4d/guide/mergedLonsLats.json';
 
-        loadJSON(function (response) {
+        loadJSON(function(response) {
             // Parse JSON string into object
             var actual_JSON = JSON.parse(response);
             for (let i = 0; i < actual_JSON.length; i++) {
@@ -101,6 +109,46 @@
                 f4dController.addF4dGroup(f4dGroup);
             }
         }, path);
+
+        function toggle_visibility() {
+            var e = document.getElementById("navtab");
+            if (e.style.display == 'block') {
+                e.style.display = 'none';
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+            } else {
+                e.style.display = 'block';
+            }
+        }
+
+        function openCity(evt, cityName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
     </script>
 </body>
 
