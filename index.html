@@ -7,29 +7,32 @@
 </head>
 <link rel="stylesheet" href="CesiumUnminified/Widgets/widgets.css">
 <link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
 <body>
     <div class="topnav">
         Header
     </div>
     <div class="sidenav">
-        <button type="button" onclick="toggle_visibility();">Data</button>
+        <button type="button" onclick="toggle_visibility()">Data</button>
     </div>
     <!-- Tab links -->
     <div id="navtab" class="tab">
         <button class="tablinks" onclick="openTab(event, 'data')">Data</button>
         <button class="tablinks" onclick="openTab(event, 'blink')">Blink</button>
     </div>
-
     <!-- Tab content -->
     <div id="data" class="tabcontent">
-        <h3>Test</h3>
-        <p>test</p>
+        <!--
+        <div>
+            <input type="button" onclick="previousPage();" value="Back" />
+            <input type="button" onclick="nextPage();" value="Next" />
+        </div>
+        -->
     </div>
-
     <div id="blink" class="tabcontent">
-        <h3>Test</h3>
-        <p>test</p>
+
     </div>
 
     <div id="map"></div>
@@ -95,6 +98,7 @@
         }
 
         var path = 'f4d/guide/mergedLonsLats.json';
+        var datalist = [];
 
         loadJSON(function(response) {
             // Parse JSON string into object
@@ -107,19 +111,24 @@
                 newElementObject.latitude = actual_JSON[i].latitude;
                 f4dGroup.datas.push(newElementObject);
                 f4dController.addF4dGroup(f4dGroup);
+                datalist.push(actual_JSON[i].data_key);
+                /*
+                var datalist = document.getElementById('data');
+                var entry = document.createElement('li');
+                entry.appendChild(document.createTextNode(newElementObject.dataKey));
+                datalist.appendChild(entry);*/
             }
+            //console.log(f4dGroup.datas.length);
         }, path);
 
         function toggle_visibility() {
             var e = document.getElementById("navtab");
             if (e.style.display == 'block') {
                 e.style.display = 'none';
-                // Get all elements with class="tablinks" and remove the class "active"
                 tablinks = document.getElementsByClassName("tablinks");
                 for (i = 0; i < tablinks.length; i++) {
                     tablinks[i].className = tablinks[i].className.replace(" active", "");
                 }
-                // Get all elements with class="tabcontent" and hide them
                 tabcontent = document.getElementsByClassName("tabcontent");
                 for (i = 0; i < tabcontent.length; i++) {
                     tabcontent[i].style.display = "none";
@@ -132,23 +141,38 @@
         function openTab(evt, tabName) {
             // Declare all variables
             var i, tabcontent, tablinks;
-
             // Get all elements with class="tabcontent" and hide them
             tabcontent = document.getElementsByClassName("tabcontent");
             for (i = 0; i < tabcontent.length; i++) {
                 tabcontent[i].style.display = "none";
             }
-
             // Get all elements with class="tablinks" and remove the class "active"
             tablinks = document.getElementsByClassName("tablinks");
             for (i = 0; i < tablinks.length; i++) {
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
             }
-
             // Show the current tab, and add an "active" class to the button that opened the tab
             document.getElementById(tabName).style.display = "block";
             evt.currentTarget.className += " active";
         }
+
+        /*
+        var pageSize = 17;
+        var pageNum = 0;
+
+        function loadData() {
+            document.getElementById('data').innerHTML = datalist.slice(pageNum * pageSize, (pageNum + 1) * pageSize).join('<br />');
+        }
+
+        function nextPage() {
+            pageNum++;
+            loadData();
+        }
+
+        function previousPage() {
+            pageNum--;
+            loadData();
+        }*/
     </script>
 </body>
 
