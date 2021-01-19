@@ -14,25 +14,26 @@
     <div class="topnav">
         Header
     </div>
+
     <div class="sidenav">
         <button type="button" onclick="toggle_visibility()">Data</button>
     </div>
-    <!-- Tab links -->
+
     <div id="navtab" class="tab">
         <button class="tablinks" onclick="openTab(event, 'data')">Data</button>
         <button class="tablinks" onclick="openTab(event, 'blink')">Blink</button>
     </div>
-    <!-- Tab content -->
+
     <div id="data" class="tabcontent">
-        <!--
+        <div id="list">
+        </div>
         <div>
             <input type="button" onclick="previousPage();" value="Back" />
             <input type="button" onclick="nextPage();" value="Next" />
         </div>
-        -->
     </div>
-    <div id="blink" class="tabcontent">
 
+    <div id="blink" class="tabcontent">
     </div>
 
     <div id="map"></div>
@@ -112,13 +113,16 @@
                 f4dGroup.datas.push(newElementObject);
                 f4dController.addF4dGroup(f4dGroup);
                 datalist.push(actual_JSON[i].data_key);
-                /*
-                var datalist = document.getElementById('data');
-                var entry = document.createElement('li');
-                entry.appendChild(document.createTextNode(newElementObject.dataKey));
-                datalist.appendChild(entry);*/
             }
-            //console.log(f4dGroup.datas.length);
+            // Fill the data tab with data_key information
+            var listdiv = document.getElementById('list');
+            var sliceddata = datalist.slice(0, 17);
+            for (let i = 0; i < sliceddata.length; i++) {
+                const element = sliceddata[i];
+                var entry = document.createElement('li');
+                entry.appendChild(document.createTextNode(element));
+                listdiv.appendChild(entry);
+            }
         }, path);
 
         function toggle_visibility() {
@@ -139,7 +143,6 @@
         }
 
         function openTab(evt, tabName) {
-            // Declare all variables
             var i, tabcontent, tablinks;
             // Get all elements with class="tabcontent" and hide them
             tabcontent = document.getElementsByClassName("tabcontent");
@@ -156,12 +159,20 @@
             evt.currentTarget.className += " active";
         }
 
-        /*
+
         var pageSize = 17;
-        var pageNum = 0;
+        var pageNum = 1;
 
         function loadData() {
-            document.getElementById('data').innerHTML = datalist.slice(pageNum * pageSize, (pageNum + 1) * pageSize).join('<br />');
+            var listdiv = document.getElementById('list');
+            listdiv.innerHTML = "";
+            var sliceddata = datalist.slice(pageNum * pageSize, (pageNum + 1) * pageSize);
+            for (let i = 0; i < sliceddata.length; i++) {
+                const element = sliceddata[i];
+                var entry = document.createElement('li');
+                entry.appendChild(document.createTextNode(element));
+                listdiv.appendChild(entry);
+            }
         }
 
         function nextPage() {
@@ -172,7 +183,7 @@
         function previousPage() {
             pageNum--;
             loadData();
-        }*/
+        }
     </script>
 </body>
 
