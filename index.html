@@ -7,8 +7,6 @@
 </head>
 <link rel="stylesheet" href="CesiumUnminified/Widgets/widgets.css">
 <link rel="stylesheet" href="style.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 
 <body>
     <div class="topnav">
@@ -25,12 +23,10 @@
     </div>
 
     <div id="data" class="tabcontent">
-        <div id="list">
-        </div>
-        <div>
-            <input type="button" onclick="previousPage();" value="Back" />
-            <input type="button" onclick="nextPage();" value="Next" />
-        </div>
+        <ul id="list">
+        </ul>
+        <button onclick="previousPage()">Back</button>
+        <button onclick="nextPage()">Next</button>
     </div>
 
     <div id="blink" class="tabcontent">
@@ -110,17 +106,18 @@
                 newElementObject.dataKey = actual_JSON[i].data_key;
                 newElementObject.longitude = actual_JSON[i].longitude;
                 newElementObject.latitude = actual_JSON[i].latitude;
+                newElementObject.dataId += i;
                 f4dGroup.datas.push(newElementObject);
                 f4dController.addF4dGroup(f4dGroup);
                 datalist.push(actual_JSON[i].data_key);
             }
             // Fill the data tab with data_key information
             var listdiv = document.getElementById('list');
-            var sliceddata = datalist.slice(0, 17);
+            var sliceddata = datalist.slice(0, 10);
             for (let i = 0; i < sliceddata.length; i++) {
                 const element = sliceddata[i];
                 var entry = document.createElement('li');
-                entry.appendChild(document.createTextNode(element));
+                entry.appendChild(document.createTextNode(datalist.length - datalist.indexOf(element) + " " + element));
                 listdiv.appendChild(entry);
             }
         }, path);
@@ -160,7 +157,7 @@
         }
 
 
-        var pageSize = 17;
+        var pageSize = 10;
         var pageNum = 1;
 
         function loadData() {
@@ -170,7 +167,7 @@
             for (let i = 0; i < sliceddata.length; i++) {
                 const element = sliceddata[i];
                 var entry = document.createElement('li');
-                entry.appendChild(document.createTextNode(element));
+                entry.appendChild(document.createTextNode(datalist.length - datalist.indexOf(element) + " " + element));
                 listdiv.appendChild(entry);
             }
         }

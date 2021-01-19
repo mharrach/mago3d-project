@@ -6,14 +6,19 @@ body {
 }
 
 #map {
-    padding-left: 50px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .topnav {
     overflow: hidden;
-    z-index: 1;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
     height: 25px;
-    padding-left: 50px;
     background-color: teal;
     text-align: center;
     color: white;
@@ -21,37 +26,33 @@ body {
 
 .sidenav {
     overflow: hidden;
-    position: fixed;
-    z-index: 1;
-    height: 100%;
+    position: absolute;
+    z-index: 2;
     width: 50px;
-    top: 0;
-    left: 0;
-    padding-top: 25px;
+    height: 100%;
     background-color: gray;
 }
 
 .sidenav button {
     width: 50px;
+    margin-top: 25px;
     background-color: #4b5052;
     border: 0.5px solid black;
     color: white;
 }
 
-
-/* Style the tab */
-
 .tab {
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
     display: none;
     overflow: hidden;
     margin-left: 50px;
+    margin-top: 25px;
     border: 1px solid;
     border-color: black;
     background-color: #4b5052;
 }
-
-
-/* Style the buttons that are used to open the tab content */
 
 .tab button {
     background-color: inherit;
@@ -59,25 +60,26 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    width: 100px;
+    height: 50px;
     transition: 0.3s;
 }
 
-
-/* Change background color of buttons on hover */
-
 .tab button:hover {
-    background-color: #ddd;
+    background-color: white;
 }
 
-
-/* Style the tab content */
-
 .tabcontent {
-    display: none;
     overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    display: none;
     margin-left: 50px;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
+    margin-top: 75px;
+    width: 200px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
 }
