@@ -46,7 +46,6 @@ body {
     position: absolute;
     z-index: 2;
     display: none;
-    overflow: hidden;
     margin-left: 50px;
     margin-top: 25px;
     border: 1px solid;
@@ -82,4 +81,36 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagenumbers button {
+    width: 30px;
+    height: 30px;
+    appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #4b5052;
+    margin: 5px;
+    transition: 0.4s;
+    color: #FFF;
+    font-size: 15px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagenumbers button:hover {
+    background-color: bisque;
+}
+
+.pagenumbers button.active {
+    background-color: bisque;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
 }

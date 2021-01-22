@@ -14,7 +14,7 @@
     </div>
 
     <div class="sidenav">
-        <button type="button" onclick="toggle_visibility()">Data</button>
+        <button type="button" onclick="toggleVisibility()">Data</button>
     </div>
 
     <div id="navtab" class="tab">
@@ -23,10 +23,8 @@
     </div>
 
     <div id="data" class="tabcontent">
-        <ul id="list">
-        </ul>
-        <button onclick="previousPage()">Back</button>
-        <button onclick="nextPage()">Next</button>
+        <div class="list" id="list"></div>
+        <div class="pagenumbers" id="pagination"></div>
     </div>
 
     <div id="blink" class="tabcontent">
@@ -37,6 +35,97 @@
     <script src="mago3d/mago3d.js"></script>
     <script src="CesiumUnminified/Cesium.js"></script>
     <script>
+        // Handle the navigation tabs
+        function toggleVisibility() {
+            var e = document.getElementById("navtab");
+            if (e.style.display == 'block') {
+                e.style.display = 'none';
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+            } else {
+                e.style.display = 'block';
+            }
+        }
+
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Handle navigation buttons
+        const list_element = document.getElementById("list");
+        const pagination_element = document.getElementById("pagination");
+
+        var current_page = 1;
+        var rows = 10;
+
+        function DisplayList(items, wrapper, rows_per_page, page) {
+            wrapper.innerHTML = "";
+            page--;
+
+            var start = rows_per_page * page;
+            var end = start + rows_per_page;
+            var paginatedItems = items.slice(start, end);
+
+            for (var i = 0; i < paginatedItems.length; i++) {
+                var item = paginatedItems[i];
+                var item_element = document.createElement('div');
+                item_element.classList.add("item");
+                item_element.innerText = items.length - items.indexOf(item) + " " + item;
+
+                wrapper.appendChild(item_element);
+            }
+        }
+
+        function SetupPagination(items, wrapper, rows_per_page) {
+            wrapper.innerHTML = "";
+            var page_count = Math.ceil(items.length / rows_per_page); // roundup
+            for (var i = 1; i < page_count + 1; i++) {
+                var btn = PaginationButton(i, items);
+                wrapper.appendChild(btn);
+            }
+        }
+
+        function PaginationButton(page, items) {
+            var button = document.createElement("button");
+            button.innerText = page;
+
+            if (current_page == page) {
+                button.classList.add("active");
+            }
+
+            button.addEventListener('click', function() {
+                current_page = page;
+                DisplayList(items, list_element, rows, current_page);
+
+                var current_btn = document.querySelector('.pagenumbers button.active');
+                current_btn.classList.remove("active");
+
+                button.classList.add("active");
+            })
+
+            return button;
+        }
+
+        // Add map and json data
         var geopolicy = {};
         geopolicy.basicGlobe = 'cesium';
         geopolicy.terrainType = 'cesium-ion-default';
@@ -100,8 +189,8 @@
         loadJSON(function(response) {
             // Parse JSON string into object
             var actual_JSON = JSON.parse(response);
-            for (let i = 0; i < actual_JSON.length; i++) {
-                let newElementObject = JSON.parse(JSON.stringify(elementObject));
+            for (var i = 0; i < actual_JSON.length; i++) {
+                var newElementObject = JSON.parse(JSON.stringify(elementObject));
                 newElementObject.dataKey = actual_JSON[i].data_key;
                 newElementObject.dataKey = actual_JSON[i].data_key;
                 newElementObject.longitude = actual_JSON[i].longitude;
@@ -111,76 +200,9 @@
                 f4dController.addF4dGroup(f4dGroup);
                 datalist.push(actual_JSON[i].data_key);
             }
-            // Fill the data tab with data_key information
-            var listdiv = document.getElementById('list');
-            var sliceddata = datalist.slice(0, 10);
-            for (let i = 0; i < sliceddata.length; i++) {
-                const element = sliceddata[i];
-                var entry = document.createElement('li');
-                entry.appendChild(document.createTextNode(datalist.length - datalist.indexOf(element) + " " + element));
-                listdiv.appendChild(entry);
-            }
+            DisplayList(datalist, list_element, rows, current_page);
+            SetupPagination(datalist, pagination_element, rows);
         }, path);
-
-        function toggle_visibility() {
-            var e = document.getElementById("navtab");
-            if (e.style.display == 'block') {
-                e.style.display = 'none';
-                tablinks = document.getElementsByClassName("tablinks");
-                for (i = 0; i < tablinks.length; i++) {
-                    tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-                tabcontent = document.getElementsByClassName("tabcontent");
-                for (i = 0; i < tabcontent.length; i++) {
-                    tabcontent[i].style.display = "none";
-                }
-            } else {
-                e.style.display = 'block';
-            }
-        }
-
-        function openTab(evt, tabName) {
-            var i, tabcontent, tablinks;
-            // Get all elements with class="tabcontent" and hide them
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            // Show the current tab, and add an "active" class to the button that opened the tab
-            document.getElementById(tabName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-
-
-        var pageSize = 10;
-        var pageNum = 1;
-
-        function loadData() {
-            var listdiv = document.getElementById('list');
-            listdiv.innerHTML = "";
-            var sliceddata = datalist.slice(pageNum * pageSize, (pageNum + 1) * pageSize);
-            for (let i = 0; i < sliceddata.length; i++) {
-                const element = sliceddata[i];
-                var entry = document.createElement('li');
-                entry.appendChild(document.createTextNode(datalist.length - datalist.indexOf(element) + " " + element));
-                listdiv.appendChild(entry);
-            }
-        }
-
-        function nextPage() {
-            pageNum++;
-            loadData();
-        }
-
-        function previousPage() {
-            pageNum--;
-            loadData();
-        }
     </script>
 </body>
 
