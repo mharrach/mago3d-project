@@ -48,7 +48,7 @@ body {
     display: none;
     margin-left: 50px;
     margin-top: 25px;
-    width: 300px;
+    width: 400px;
     border: 1px solid;
     border-color: black;
     background-color: #4b5052;
@@ -60,7 +60,7 @@ body {
     border: none;
     outline: none;
     cursor: pointer;
-    width: 150px;
+    width: 200px;
     height: 50px;
     transition: 0.3s;
 }
@@ -77,9 +77,9 @@ body {
     margin-top: 75px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 300px;
+    width: 400px;
     background-color: white;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 
@@ -108,7 +108,7 @@ body {
 }*/
 
 .pagenumbers button {
-    padding-top: 5px;
+    margin-top: 10px;
 }
 
 .pagenumbers button:hover {
@@ -118,4 +118,16 @@ body {
 .pagenumbers button.active {
     background-color: bisque;
     box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.list button.onoff {
+    margin-left: 5px;
+}
+
+.list button.move {
+    margin-left: 5px;
+}
+
+.list button.active {
+    background-color: bisque;
 }
