@@ -52,33 +52,9 @@ function DisplayList(items, wrapper, rows_per_page, page) {
     for (var i = 0; i < paginatedItems.length; i++) {
         var item = paginatedItems[i];
         var item_element = document.createElement('div');
-        var on_off_btn = document.createElement('button');
-        on_off_btn.innerText = "on/off";
-        on_off_btn.classList.add("onoff");
-        on_off_btn.setAttribute("id", item);
-        on_off_btn.addEventListener('click', function() {
-            on_off_btn.classList.toggle("active");
-            var node = map.getMagoManager().hierarchyManager.getNodeByDataKey(1, on_off_btn.id);
-            var visibility = node.data.attributes.isVisible;
-            if (visibility == true) {
-                node.data.attributes.isVisible = false;
-            } else {
-                node.data.attributes.isVisible = true;
-            }
-        });
-        var move_btn = document.createElement('button');
-        move_btn.innerText = "MoveTo";
-        move_btn.classList.add("move");
-        move_btn.setAttribute("id", item);
-        move_btn.addEventListener('click', function() {
-            console.log(move_btn.id);
-            move_btn.classList.toggle("active");
-            searchDataAPI(map, 1, move_btn.id);
-        });
         item_element.classList.add("item");
         item_element.innerText = items.length - items.indexOf(item) + " " + item;
-        item_element.appendChild(on_off_btn);
-        item_element.appendChild(move_btn);
+
         wrapper.appendChild(item_element);
     }
 }
@@ -172,11 +148,9 @@ function PageTester(page, items, rows_per_page) {
     } else if (page == "last") {
         current_page = page_count;
     } else if (page == 1) {
-        current_page = 1;
         first_btn.style.visibility = "hidden";
         prev_btn.style.visibility = "hidden";
     } else if (page == page_count) {
-        current_page = page_count;
         next_btn.style.visibility = "hidden";
         last_btn.style.visibility = "hidden";
     } else {
