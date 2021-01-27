@@ -55,6 +55,17 @@ function DisplayList(items, wrapper, rows_per_page, page) {
         var on_off_btn = document.createElement('button');
         on_off_btn.innerText = "on/off";
         on_off_btn.classList.add("onoff");
+        on_off_btn.setAttribute("id", item);
+        on_off_btn.addEventListener('click', function() {
+            on_off_btn.classList.toggle("active");
+            var node = map.getMagoManager().hierarchyManager.getNodeByDataKey(1, on_off_btn.id);
+            var visibility = node.data.attributes.isVisible;
+            if (visibility == true) {
+                node.data.attributes.isVisible = false;
+            } else {
+                node.data.attributes.isVisible = true;
+            }
+        });
         var move_btn = document.createElement('button');
         move_btn.innerText = "MoveTo";
         move_btn.classList.add("move");
