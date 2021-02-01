@@ -69,6 +69,12 @@ function SwitchOnOff(wrapper) {
         onoff_btn.classList.add('onoff');
         element.appendChild(onoff_btn);
         onoff_btn.addEventListener('click', function() {
+            var btns_list = document.getElementsByClassName("onoff");
+            for (let i = 0; i < btns_list.length; i++) {
+                const ele = btns_list[i];
+                ele.classList.remove("active");
+            }
+            this.classList.add("active");
             var node = mago_manager.hierarchyManager.getNodeByDataKey(1, element.id);
             if (node.data.attributes.isVisible == true) {
                 node.data.attributes.isVisible = false;
@@ -88,6 +94,12 @@ function MoveTo(wrapper) {
         move_btn.classList.add('move');
         element.appendChild(move_btn);
         move_btn.addEventListener('click', function() {
+            var btns_list = document.getElementsByClassName("move");
+            for (let i = 0; i < btns_list.length; i++) {
+                const ele = btns_list[i];
+                ele.classList.remove("active");
+            }
+            this.classList.add("active");
             searchDataAPI(map, 1, element.id);
         })
     }
@@ -96,6 +108,7 @@ function MoveTo(wrapper) {
 function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.innerHTML = "";
 
+    var page_count = Math.ceil(items.length / rows_per_page);
     var first = PaginationButton("first", items, rows_per_page);
     wrapper.appendChild(first);
     first.classList.add("first");
@@ -104,17 +117,17 @@ function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.appendChild(prev_btn);
     prev_btn.classList.add("prev");
 
-    for (var i = 1; i < 6; i++) {
+    for (var i = 1; i < page_count; i++) {
         var btn = PaginationButton(i, items, rows_per_page);
         wrapper.appendChild(btn);
-        /*
+
         if (i >= 5) {
             var etc_btn = PaginationButton("...", items, rows_per_page);
             wrapper.appendChild(etc_btn);
             var end_btn = PaginationButton(page_count, items, rows_per_page);
             wrapper.appendChild(end_btn);
             break;
-        }*/
+        }
     }
 
     var next_btn = PaginationButton("next", items, rows_per_page);
@@ -220,7 +233,7 @@ var f4dGroup = {
 var elementObject = {
     "metainfo": {
         "isPhysical": true,
-        "flipYTexCoords": true,
+        "flipYTexCoords": false,
         "heightReference": "clampToGround",
         "isVisible": true
     },
