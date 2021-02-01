@@ -53,15 +53,48 @@ function DisplayList(items, wrapper, rows_per_page, page) {
         var item = paginatedItems[i];
         var item_element = document.createElement('div');
         item_element.classList.add("item");
+        item_element.id = item;
         item_element.innerText = items.length - items.indexOf(item) + " " + item;
-
         wrapper.appendChild(item_element);
+    }
+}
+
+function SwitchOnOff(wrapper) {
+    var items = wrapper.children;
+    var mago_manager = map.getMagoManager();
+    for (let j = 0; j < items.length; j++) {
+        const element = items[j];
+        var onoff_btn = document.createElement('button');
+        onoff_btn.innerText = "on/off";
+        onoff_btn.classList.add('onoff');
+        element.appendChild(onoff_btn);
+        onoff_btn.addEventListener('click', function() {
+            var node = mago_manager.hierarchyManager.getNodeByDataKey(1, element.id);
+            if (node.data.attributes.isVisible == true) {
+                node.data.attributes.isVisible = false;
+            } else {
+                node.data.attributes.isVisible = true;
+            }
+        })
+    }
+}
+
+function MoveTo(wrapper) {
+    var items = wrapper.children;
+    for (let j = 0; j < items.length; j++) {
+        const element = items[j];
+        var move_btn = document.createElement('button');
+        move_btn.innerText = "Move to";
+        move_btn.classList.add('move');
+        element.appendChild(move_btn);
+        move_btn.addEventListener('click', function() {
+            searchDataAPI(map, 1, element.id);
+        })
     }
 }
 
 function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.innerHTML = "";
-    var page_count = Math.ceil(items.length / rows_per_page); // roundup
 
     var first = PaginationButton("first", items, rows_per_page);
     wrapper.appendChild(first);
@@ -71,16 +104,17 @@ function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.appendChild(prev_btn);
     prev_btn.classList.add("prev");
 
-    for (var i = 1; i < page_count; i++) {
+    for (var i = 1; i < 6; i++) {
         var btn = PaginationButton(i, items, rows_per_page);
         wrapper.appendChild(btn);
+        /*
         if (i >= 5) {
             var etc_btn = PaginationButton("...", items, rows_per_page);
             wrapper.appendChild(etc_btn);
             var end_btn = PaginationButton(page_count, items, rows_per_page);
             wrapper.appendChild(end_btn);
             break;
-        }
+        }*/
     }
 
     var next_btn = PaginationButton("next", items, rows_per_page);
@@ -234,4 +268,6 @@ loadJSON(function(response) {
     }
     DisplayList(datalist, list_element, rows, current_page);
     SetupPagination(datalist, pagination_element, rows);
+    SwitchOnOff(list_element);
+    MoveTo(list_element)
 }, path);
