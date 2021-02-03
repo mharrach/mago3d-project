@@ -35,6 +35,7 @@ function openTab(evt, tabName) {
 }
 
 //________________________________Handle navigation buttons______________________________________//
+const data_element = document.getElementById("data");
 const list_element = document.getElementById("list");
 const pagination_element = document.getElementById("pagination");
 
@@ -107,24 +108,6 @@ function MoveTo(wrapper) {
     }
 }
 
-function SearchForData() {
-    var wrapper = document.getElementById("data");
-    var search_box = document.createElement("div");
-    search_box.classList.add("searchbox");
-    var input = document.createElement("input");
-    input.setAttribute("placeholder", "Search...");
-    search_box.appendChild(input);
-    var search_button = document.createElement("button");
-    search_button.id = "search";
-    search_button.innerText = "Search";
-    search_box.appendChild(search_button);
-    var reset_button = document.createElement("button");
-    reset_button.id = "reset";
-    reset_button.innerText = "Reset";
-    search_box.appendChild(reset_button);
-    wrapper.appendChild(search_box);
-}
-
 function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.innerHTML = "";
 
@@ -137,18 +120,17 @@ function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.appendChild(prev_btn);
     prev_btn.classList.add("prev");
 
-    for (var i = 1; i < 6; i++) {
+    for (var i = 1; i <= page_count; i++) {
         var btn = PaginationButton(i, items, rows_per_page);
         wrapper.appendChild(btn);
 
-        /*
         if (i >= 5) {
             var etc_btn = PaginationButton("...", items, rows_per_page);
             wrapper.appendChild(etc_btn);
             var end_btn = PaginationButton(page_count, items, rows_per_page);
             wrapper.appendChild(end_btn);
             break;
-        }*/
+        }
     }
 
     var next_btn = PaginationButton("next", items, rows_per_page);
@@ -216,15 +198,60 @@ function PageTester(page, items, rows_per_page) {
     } else if (page == "last") {
         current_page = page_count;
     } else if (page == 1) {
+        current_page = page;
         first_btn.style.visibility = "hidden";
         prev_btn.style.visibility = "hidden";
     } else if (page == page_count) {
+        current_page = page_count;
         next_btn.style.visibility = "hidden";
         last_btn.style.visibility = "hidden";
     } else {
         current_page = page;
     }
 }
+
+function SetupSearchBox(wrapper, items) {
+    var search_box = document.createElement("div");
+    search_box.classList.add("searchbox");
+    var input = document.createElement("input");
+    input.setAttribute("placeholder", "Search...");
+    search_box.appendChild(input);
+    var search_button = document.createElement("button");
+    search_button.id = "search";
+    search_button.innerText = "Search";
+    search_button.addEventListener('click', function() {
+        reset_button.classList.remove("active");
+        search_button.classList.add("active");
+        var input_value = input.value.toLowerCase();
+        var result = [];
+        for (let i = 0; i < items.length; i++) {
+            const element = items[i];
+            const condition = element.toLowerCase().includes(input_value);
+            if (condition) {
+                result.push(element);
+                DisplayList(result, list_element, rows, current_page);
+                SetupPagination(result, pagination_element, rows);
+            } else if (i == items.length - 1 && result.length == 0) {
+                list_element.innerHTML = "element not found!";
+                pagination_element.innerHTML = "";
+            }
+        }
+    });
+    search_box.appendChild(search_button);
+    var reset_button = document.createElement("button");
+    reset_button.id = "reset";
+    reset_button.innerText = "Reset";
+    reset_button.addEventListener('click', function() {
+        search_button.classList.remove("active");
+        reset_button.classList.add("active");
+        input.value = "";
+        DisplayList(datalist, list_element, rows, current_page);
+        SetupPagination(datalist, pagination_element, rows);
+    });
+    search_box.appendChild(reset_button);
+    wrapper.appendChild(search_box);
+}
+
 
 //_____________________________Add map and json data________________________________//
 var geopolicy = {};
@@ -302,5 +329,5 @@ loadJSON(function(response) {
     }
     DisplayList(datalist, list_element, rows, current_page);
     SetupPagination(datalist, pagination_element, rows);
-    SearchForData();
+    SetupSearchBox(data_element, datalist);
 }, path);

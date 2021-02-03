@@ -135,3 +135,7 @@ body {
 .searchbox {
     margin-top: 5px;
 }
+
+.searchbox button.active {
+    background-color: bisque;
+}
