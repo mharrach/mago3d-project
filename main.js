@@ -173,6 +173,8 @@ function PaginationButton(page, items, rows_per_page) {
 function PageTester(page, items, rows_per_page) {
     var page_count = Math.ceil(items.length / rows_per_page);
 
+    var btn_list = document.getElementsByTagName("button");
+
     var first_btn = document.querySelector('.pagenumbers button.first');
     first_btn.style.visibility = "visible";
 
@@ -189,10 +191,22 @@ function PageTester(page, items, rows_per_page) {
         current_page = page_count;
     } else if (page == "prev") {
         current_page--;
+        for (let index = 0; index < btn_list.length; index++) {
+            const element = btn_list[index];
+            if (element.innerText == current_page) {
+                element.focus();
+            }
+        }
     } else if (page == "next" && current_page == page_count) {
         current_page = 1;
     } else if (page == "next") {
         current_page++;
+        for (let index = 0; index < btn_list.length; index++) {
+            const element = btn_list[index];
+            if (element.innerText == current_page) {
+                element.focus();
+            }
+        }
     } else if (page == "first") {
         current_page = 1;
     } else if (page == "last") {
