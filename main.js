@@ -229,12 +229,14 @@ function SetupSearchBox(wrapper, items) {
             const condition = element.toLowerCase().includes(input_value);
             if (condition) {
                 result.push(element);
-                DisplayList(result, list_element, rows, current_page);
-                SetupPagination(result, pagination_element, rows);
             } else if (i == items.length - 1 && result.length == 0) {
                 list_element.innerHTML = "element not found!";
                 pagination_element.innerHTML = "";
             }
+        }
+        if (result.length != 0) {
+            DisplayList(result, list_element, rows, current_page);
+            SetupPagination(result, pagination_element, rows);
         }
     });
     search_box.appendChild(search_button);
