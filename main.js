@@ -57,6 +57,8 @@ function DisplayList(items, wrapper, rows_per_page, page) {
         item_element.innerText = items.length - items.indexOf(item) + " " + item;
         wrapper.appendChild(item_element);
     }
+    SwitchOnOff(wrapper);
+    MoveTo(wrapper);
 }
 
 function SwitchOnOff(wrapper) {
@@ -105,6 +107,24 @@ function MoveTo(wrapper) {
     }
 }
 
+function SearchForData() {
+    var wrapper = document.getElementById("data");
+    var search_box = document.createElement("div");
+    search_box.classList.add("searchbox");
+    var input = document.createElement("input");
+    input.setAttribute("placeholder", "Search...");
+    search_box.appendChild(input);
+    var search_button = document.createElement("button");
+    search_button.id = "search";
+    search_button.innerText = "Search";
+    search_box.appendChild(search_button);
+    var reset_button = document.createElement("button");
+    reset_button.id = "reset";
+    reset_button.innerText = "Reset";
+    search_box.appendChild(reset_button);
+    wrapper.appendChild(search_box);
+}
+
 function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.innerHTML = "";
 
@@ -117,17 +137,18 @@ function SetupPagination(items, wrapper, rows_per_page) {
     wrapper.appendChild(prev_btn);
     prev_btn.classList.add("prev");
 
-    for (var i = 1; i < page_count; i++) {
+    for (var i = 1; i < 6; i++) {
         var btn = PaginationButton(i, items, rows_per_page);
         wrapper.appendChild(btn);
 
+        /*
         if (i >= 5) {
             var etc_btn = PaginationButton("...", items, rows_per_page);
             wrapper.appendChild(etc_btn);
             var end_btn = PaginationButton(page_count, items, rows_per_page);
             wrapper.appendChild(end_btn);
             break;
-        }
+        }*/
     }
 
     var next_btn = PaginationButton("next", items, rows_per_page);
@@ -281,6 +302,5 @@ loadJSON(function(response) {
     }
     DisplayList(datalist, list_element, rows, current_page);
     SetupPagination(datalist, pagination_element, rows);
-    SwitchOnOff(list_element);
-    MoveTo(list_element)
+    SearchForData();
 }, path);
